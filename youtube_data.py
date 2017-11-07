@@ -43,7 +43,7 @@ def youtube_search(q, max_results=50,order="relevance", token=None, location=Non
     category = []
     tags = []
     videos = []
-    pprint.pprint(videos)
+    
     for search_result in search_response.get("items", []):
         #pprint.pprint(search_result)
   
